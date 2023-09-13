@@ -2,8 +2,8 @@
 ## **Overview**
 ```
 This project is based on Google Advanced Data Analytics online courses available on Coursera.
-The goal of the project is to build machine learning as well as regression model to forecast the client churn rate for Waze, a company providing navigation services to users.
-Please note while Waze is a real company, the data shared by Coursera/Google here is soly for pedagogical purpose, which is also explicitly stated within Coursera platform.
+The goal of the project is to build machine learning as well as regression model to forecast the client churn rate for Waze, a company providing navigation services to its users.
+Please note while Waze is a real company, the data shared by Coursera/Google here is solely for pedagogical purpose, which is also explicitly stated within Coursera platform.
 With this project I will also show the following skillsets that have been obatined:
 ```
 * EDA (exploratory data analysis)
