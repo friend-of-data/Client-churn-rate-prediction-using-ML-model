@@ -11,15 +11,15 @@ I will show with this project the following skillsets that I have obatined:
 * Statitical analysis of the data and regression analysis (Logistic regression)
 * Machine learning model (Decision tree, random forest, XGBoost
 ```
-The programming language is Python, including the following liabraries/ packages:
+The programming language is Python, including the following liabraries/ packages or modules therein:
 ```
->pandas
->numpy
->matplotlib
->seaborn
->sklearn
->scipy
->statsmodels
+*pandas
+*numpy
+*matplotlib
+*seaborn
+*sklearn
+*scipy
+*statsmodels
 
 
 
