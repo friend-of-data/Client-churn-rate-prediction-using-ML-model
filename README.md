@@ -6,10 +6,10 @@ The goal of the project is to build machine learning as well as regression model
 Please note while Waze is a real company, the data shared by Coursera/Google here is soly for pedagogical purpose, which is also explicitly stated within Coursera platform.
 I will show with this project the following skillsets that I have obatined:
 ```
-> EDA (exploratory data analysis)
-> Data visulization
-> Statitical analysis of the data and regression analysis (Logistic regression)
-> Machine learning model (Decision tree, random forest, XGBoost
+* EDA (exploratory data analysis)
+* Data visulization
+* Statitical analysis of the data and regression analysis (Logistic regression)
+* Machine learning model (Decision tree, random forest, XGBoost
 ```
 The programming language is Python, including the following liabraries/ packages:
 ```
