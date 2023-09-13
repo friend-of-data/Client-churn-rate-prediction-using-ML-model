@@ -31,9 +31,10 @@ Churn quantifies the number of users who have uninstalled the Waze app or stoppe
 ## **Data understanding**
 ```
 The dataset contains 14,999 rows and 13 columns, with each row representing a unique user and each column a specific feature associated with the user. The table below demonstrates the overview of the data.
+```
 |Column name |Type |Description
 |------------|:---:|-----------
 |label       |obj  |Binary ("retained" vs. "churned") during the course of the month
-```
+
 ## **Modeling and evaluation**
 ## **Conclusion**
