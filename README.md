@@ -1,4 +1,4 @@
-# Client-churn-rate-prediction-using-ML-model
+# Client-churn-rate-prediction-using-machine-learning-model
 ## **Overview**
 
 This project is based on Google Advanced Data Analytics online courses available on Coursera.
