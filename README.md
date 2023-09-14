@@ -64,7 +64,8 @@ The table below shows all engineered features used in the model.
 |percent_of_sessions_to_favorite |float |Percentage of total sessions used to navigate to one of the user's favorite places
 
 From the feature importance bar chart (generated from XGBoost model) can be seen that the feature engineering was very effective as 3 out of the top 5 features (6 out of the top 10 features) were not included in the original dataset but engineered during the analysis and model construction.
-![alt text](https://github.com/friend-of-data/Client-churn-rate-prediction-using-ML-model/blob/main/Feature%20importance.PNG)
+
+![alt text](https://github.com/friend-of-data/Client-churn-rate-prediction-using-ML-model/blob/main/Feature_importance.PNG)
 ## **Modeling and evaluation**
 ## **Conclusion**
 
