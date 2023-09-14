@@ -47,7 +47,7 @@ The dataset contains 14,999 rows and 13 columns, with each row representing a un
 |activity_days           |int   |Number of days the user opens the app during the month
 |driving_days            |int   |Number of days the user drives (at least 1 km) during the month
 
-
+Apart from the features above, features engineering was also performed to maximize the usage of the data and increase the predictability of the model. For example, 'km_per_driving_day' combined two features ('driven_km_drives' and 'driving_days') to indicate the average number of kilometers driven on each day in the last month for each user. Similarly, 'total_sessions_per_day' used 'total_sessions' and 'n_days_after_onboarding' to represent the average number of sessions on each day since user's onboarding.  
 ## **Modeling and evaluation**
 ## **Conclusion**
 
