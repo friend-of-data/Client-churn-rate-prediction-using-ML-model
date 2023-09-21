@@ -33,7 +33,7 @@ Therefore, using machine learning model to predict user churn can help the manag
 
 ## **Data understanding**
 
-The dataset contains 14,999 rows and 13 columns, with each row representing a unique user and each column a specific feature associated with the user. The table below demonstrates the overview of the data.
+The dataset contains 14,999 rows and 13 columns, with each row representing a unique user and each column a specific feature associated with the user (except the first column which is index). The table below demonstrates the overview of the data.
 
 |Column name |Type |Description
 |:-----------------------|:----:|:----------
@@ -67,6 +67,16 @@ From the feature importance bar chart (generated from XGBoost model) can be seen
 
 ![alt text](https://github.com/friend-of-data/Client-churn-rate-prediction-using-ML-model/blob/main/Feature_importance.PNG)
 ## **Modeling and evaluation**
+
+3 models were built und evaluated. Specifically, decision tree, random forest and XGBoost were trained and valiated and in the end XGBoost was chosed as the optimal model and run on the test data. The whole data set was split into training, validation and test sets with 60:20:20 proportion. All 3 models were trained with 60% of the data and subsequently validated against 20% of the set. Based on the validation result, the champion model was picked and solely run on the test data.
+
+The metric used was recall score. As can be seen, decision tree model has dominated or at least stood out with a clear margin against the other two models. But the precision score, on the other hand, has performed much worse than the other two. It depends on what the business case is. Here I have looked at all four metrics and gave more weight to f1 and accuracy. So even thogh decision tree model has the highest recall metric, in the end I used XGBoost model as the winning model.
+
+It is also worth noting that the performance of decision tree among the 3 models were not as stable as the other. To validate this guess, I also run decision model on test data set, and all four metrics dropped moderately or quite significantly. This is not sursprising as decision tree model was easily susceptible to over fitting.
+
 ## **Conclusion**
 
+It must be pointed out that even for the champion model and overall performance is not quite satisfying. The model has still a lot room for improvement. More hyperparameters tuning could still be made and would expectedly improve the predictability. The decision threshold can also be modified so that we predict churn not with a probability over 50% but rather 30% or even 20% as shown in the end of the code. 
+
+It also bears stressing that other models may be performed later to gain more insights and generate more business value from the data.
 
